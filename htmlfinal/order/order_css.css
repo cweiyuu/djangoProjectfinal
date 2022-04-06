@@ -1,0 +1,16 @@
+.content .p1 {
+    float: left;
+    border-radius: 5%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.content .p2 {
+    float: right;
+    box-shadow: 2px 2px 5px;
+    margin-left: 10px;
+}
+
+.content .h4_2 {
+    clear: both;
+}

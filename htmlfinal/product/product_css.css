@@ -1,0 +1,37 @@
+.content .box {
+    background-color: rgba(240, 248, 255, 0.452);
+    width: 280px;
+    float: left;
+    margin: 10px;
+    border-radius: 5%;
+    padding: 10px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.content .box:hover {
+    border-radius: 5%;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 3px;
+    transform: scale(1.02) rotate(1deg) translate(-2px, -2px) skewX(1deg);
+    /* transform: scale() 縮放大小
+    transform: rotate() 旋轉
+    transform: translate() 位移
+    transform: skew() 傾斜 */
+
+}
+
+.content .box img {
+    border: none;
+    box-shadow: none;
+
+}
+
+.content .box h5 {
+    margin: 2px 0;
+    font-size: 22px;
+}
+
+.content .box p {
+    margin-bottom: 0;
+}
